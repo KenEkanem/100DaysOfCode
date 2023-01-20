@@ -5,10 +5,15 @@
 # print("Welcome to the rollercoaster!")
 # height = int(input("Please input your height in cm"))
 
-# if height >= 120:
-#     print("You can ride the rollercoaster")
-# else:
-#     print("Sorry! You have to grow taller befor you can ride")
+if height >= 120:
+    print("You can ride the rollercoaster")
+    age = int(input("What is your age?"))
+    if age <=18:
+        print("Please pay $7 dollars")
+    else:
+        print("Please pay $12")
+else:
+    print("Sorry! You have to grow taller befor you can ride")
 
 
 
@@ -19,4 +24,5 @@ if number % 2 == 0:
 else:
     print("This is an odd number")
 
+# NESTED STATEMENTS IF STATEMENTS (ELIF STATEMENTS)
 
