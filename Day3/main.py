@@ -24,6 +24,8 @@
 # 2000  / 400 = (leap)
 
 
+
+# Calculating Leap year In Python
 year = int(input("which year do you want to check? "))
 if year % 4 == 0:
     if year % 100 == 0:
