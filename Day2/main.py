@@ -1,6 +1,8 @@
 
 # ADDING TWO DIGIT INPUTS TOGETHER
 
+# Adding Two Digits of a given number
+
 # two_digit_number = input("Type a two Digit number \n")
 # first_digit = two_digit_number[0]
 # second_digit = two_digit_number[1]
@@ -10,7 +12,6 @@
 
 
 # MATHEMATICAL OPERATIONS
-
 # PEMDAS
 # ()
 # **
@@ -18,7 +19,7 @@
 # +-
 # print(3*3+3/3-3)
 
-# A SIMPLE BMI CALCULATOR
+# # A simple BMI Calculator
 
 # height = input("Enter your height in m:\n")
 # weight = input("Enter your weight in kg:\n")
@@ -27,16 +28,18 @@
 
 # print("Your bmi is: " + str(bmi_as_integer))
 
+
+
 # NUMBER MANIPULATION AND F STRING IN PYTHON
 
 
-# CALCULATING TIME LEFT IN WEEKS AND MONTHS
+# Calculation Time
+
 # age = input("What is yout age?: ")
 # age_int = int(age)
 # age_left = 90 - age_int
 # days_left = age_left * 365
 # weeks_left = age_left * 52
-
 # months_left = age_left * 12
 # print(months_left)
 
@@ -59,9 +62,23 @@ roundedbill = round(each_person, 2)
 print(f"Each person should pay ${roundedbill}")
 
 
+# A simple BMI Calculator 2.0
+
+height = float(input("Enter your height in m:\n"))
+weight = float(input("Enter your weight in kg:\n"))
+bmi = round(weight / height ** 2)
+  
+if bmi < 18.5:
+    print(f"Your BMI is {bmi_as_integer}, you are Underweight")
+elif bmi < 25:
+    print(f"Your BMI is {bmi}, you have a normal weight")
+elif bmi < 30:
+    print(f"Your BMI is {bmi}, you are overweight")
+elif bmi < 35:
+    print(f"Your BMI is {bmi}, you are Obese")
+else:
+    print(f"Your bmi is {bmi}, you are clinically obese")
 
 
 
-
-
-
+# print("Your bmi is: " + str(bmi_as_integer))
