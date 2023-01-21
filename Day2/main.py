@@ -47,19 +47,19 @@
 
 
 # TIP CALCULATOR
-print("Welcome to the tip calculator")
+# print("Welcome to the tip calculator")
 
-bill = float(input("What is the total bill?"))
-tip = int(input("What percentage tip would you like to give? 10, 12, or 15?: "))
-num_of_people = int(input("how many people to split the bill?: "))
-percentage_tip = tip / 100
-tip_total = bill * percentage_tip
+# bill = float(input("What is the total bill?"))
+# tip = int(input("What percentage tip would you like to give? 10, 12, or 15?: "))
+# num_of_people = int(input("how many people to split the bill?: "))
+# percentage_tip = tip / 100
+# tip_total = bill * percentage_tip
 
-new_bill = bill + tip_total
-each_person = new_bill / num_of_people
+# new_bill = bill + tip_total
+# each_person = new_bill / num_of_people
 
-roundedbill = round(each_person, 2)
-print(f"Each person should pay ${roundedbill}")
+# roundedbill = round(each_person, 2)
+# print(f"Each person should pay ${roundedbill}")
 
 
 # A simple BMI Calculator 2.0
@@ -67,6 +67,7 @@ print(f"Each person should pay ${roundedbill}")
 height = float(input("Enter your height in m:\n"))
 weight = float(input("Enter your weight in kg:\n"))
 bmi = round(weight / height ** 2)
+# bmi = 28
   
 if bmi < 18.5:
     print(f"Your BMI is {bmi_as_integer}, you are Underweight")
