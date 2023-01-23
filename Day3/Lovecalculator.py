@@ -20,5 +20,14 @@ e = lowCaseName.count("e")
 
 love = l + o + v + e
 
-love_score = str(true) + str(love)
+score_str = str(true) + str(love)
+
+
+love_score = int(score_str)
 print(love_score)
+if (love_score < 10) or (love_score > 90):
+    print(f"Your score is {love_score}, you go together like coke and mentos")
+elif (love_score >=40) and (love_score<=50):
+    print(f"Your score is {love_score} you are alright together")
+else:
+    (f"your score is {love_score}")
