@@ -27,7 +27,7 @@ stage_1 = input('You\'re at a cross road, Do you want to go "Left" or "Right"? '
 if stage_1 == "left":
     stage2 = input('you\'ve come to a lake. there is an island in the middle of the lake. type "wait" to wait for a boat. type "Swim" to swim across.').lower()
     if stage2 == "wait":
-        stage3 = input('You got to the the castle, Choose a "Red" "Blue" or "yellow" "door"').lower()
+        stage3 = input('You got to the the castle, Choose a "Red" "Blue" or "yellow" door').lower()
         if stage3 == "yellow":
             print("You win")
         elif stage3 == "blue":
