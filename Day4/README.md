@@ -13,8 +13,12 @@ Split code up into individual modules
 
 ### List
 A data structure used to organize and store grouped pieces of data
+- Index errors and working with list
+- Nested list 
 
 
 ## Projects
 - Random exercise
-- virtual coin toss program
+- Virtual coin toss program
+- Bankeroulette
+- Treasure map
