@@ -20,6 +20,8 @@ In the second iteration i is assigned the value 2 and then once again print stat
 For each element in the_list do the following...
 which is print in this case
 
+-  For Loop and the range function
+
 ### 
 
 ### 
